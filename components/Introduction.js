@@ -7,7 +7,7 @@ const Introduction = () => {
                         <div className="space-y-4 ml-2 sm:mb-4 sm:ml-2">
 
                             <div className="mr-2 pb-4 space-y-4 mt-4">
-                                <h1 className="text-6xl font-bold">Hi, I'm Edmond,</h1>
+                                <h1 className="text-6xl font-bold">Hi, I&apos;m Edmond,</h1>
                                 <div className="space-y-2 text-gray-500 text-3xl font-semibold">
                                     <p>a student,</p>
                                     <p>and aspiring software developer</p>
@@ -23,11 +23,11 @@ const Introduction = () => {
 
                             <div className="space-y-4 m-2 border-2 rounded-lg sm:border-0 p-2">
                                 <p>
-                                    I'm a 1st year computer science student and I have a passion in developing modern web applications. I have an unending curiosity for learning how technology works, specifically programming.
+                                    I&apos;m a 1st year computer science student and I have a passion in developing modern web applications. I have an unending curiosity for learning how technology works, specifically programming.
                                 </p>
 
                                 <p>
-                                    I specialize in JavaScript, React, and Node.js, but I'm almost always learning new web technologies so I can see my ideas and my programming come to life!
+                                    I specialize in JavaScript, React, and Node.js, but I&apos;m almost always learning new web technologies so I can see my ideas and my programming come to life!
                                 </p>
                             </div>
 
