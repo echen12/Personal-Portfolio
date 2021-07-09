@@ -44,7 +44,7 @@ const ConstDiv = () => {
 
                 <div>
                     <div className="text-center text-xl font-bold">
-                        <h1>Let's Center A Div!</h1>
+                        <h1>Let&apos;s Center A Div!</h1>
                     </div>
 
                     <div className="flex justify-center">
