@@ -16,8 +16,10 @@ const Blog = () => {
 
                     <div className="space-y-6">
 
-                        <a>
-                            <Link href="/blog/center-div">
+
+                        <Link href="/blog/center-div">
+
+                            <a>
 
                                 <div className="rounded-lg bg-custom-teal sm:space-x-6 shadow-2xl">
 
@@ -53,9 +55,10 @@ const Blog = () => {
                                     </div>
 
                                 </div>
+                            </a>
 
-                            </Link>
-                        </a>
+                        </Link>
+
 
 
 
