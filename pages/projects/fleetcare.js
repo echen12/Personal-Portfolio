@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../../public/logo/EC.png'
-import dashboard from '../../public/projects/fleetcare-dashboard.png'
-import details from '../../public/projects/fleetcare-vehicledetail.png'
+import dashboard from '../../public/projects/home-page.PNG'
 import { FaLinkedin, FaGithub, FaArrowRight, FaReact, FaNode } from 'react-icons/fa'
 import { DiMongodb } from "react-icons/di";
 import Footer from '../../components/Footer'
@@ -26,9 +25,6 @@ const FleetCare = () => {
                             <a className="hover:text-red-500">Projects</a>
                         </Link>
 
-                        <Link href="/#experience">
-                            <a className="hover:text-red-500">Experience</a>
-                        </Link>
 
                     </div>
                     <div className="flex m-auto space-x-4 mr-2 md:mr-6">
@@ -47,10 +43,10 @@ const FleetCare = () => {
                     <div className="lg:flex lg:justify-evenly border-b-2 m-2">
 
                         <div className="m-2 lg:w-7/12">
-                            <h1 className="text-5xl m-2 pb-2 border-b-2">FleetCare</h1>
+                            <h1 className="text-5xl m-2 pb-2 border-b-2">VehicleTrack</h1>
                             <div className="space-y-4 text-xl m-4">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    VehicleTrack is the easiest way to track the maintenance of your vehicle. This application tracks vehicles, mileage, warranty information and oil life to maintain vehicular upkeep.
                                 </p>
 
                                 <p className="text-sm">
@@ -80,12 +76,13 @@ const FleetCare = () => {
                                     <ul className="md:text-2xl">
                                         <li>- NHTSA Vehicle API</li>
                                         <li>- MERN Stack</li>
+                                        <li>- Styled Components</li>
                                     </ul>
                                 </div>
                             </div>
 
 
-                            <div className="flex justify-evenly pb-2">
+                            <div className="flex justify-evenly pb-2 items-center ">
                                 <FaReact className="text-5xl" />
                                 <FaNode className="text-5xl" />
                                 <DiMongodb className="text-5xl" />
@@ -95,10 +92,8 @@ const FleetCare = () => {
 
                     </div>
 
-                    <div className="h-0 md:h-auto flex flex-col mt-4">
-                        <Image src={dashboard} className="invisible md:visible" />
-                        <br />
-                        <Image src={details} className="invisible md:visible" />
+                    <div className="bg-cover h-auto flex flex-col mt-4">
+                        <Image src={dashboard} />
                     </div>
                 </div>
 

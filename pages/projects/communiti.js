@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../../public/logo/EC.png'
-import todo from '../../public/projects/todo-list-screenshot.png'
+import communiti from '../../public/projects/communiti-front.PNG'
 import { FaLinkedin, FaGithub, FaArrowRight, FaReact, FaNode } from 'react-icons/fa'
 import { DiMongodb } from "react-icons/di";
 import Footer from '../../components/Footer'
@@ -25,10 +25,6 @@ const FleetCare = () => {
                             <a className="hover:text-red-500">Projects</a>
                         </Link>
 
-                        <Link href="/#experience">
-                            <a className="hover:text-red-500">Experience</a>
-                        </Link>
-
                     </div>
                     <div className="flex m-auto space-x-4 mr-2 md:mr-6">
                         <a href="https://www.linkedin.com/in/edmond-chen-5b0b111a5/">
@@ -46,24 +42,24 @@ const FleetCare = () => {
                     <div className="lg:flex lg:justify-evenly border-b-2 m-2">
 
                         <div className="m-2 lg:w-7/12">
-                            <h1 className="text-5xl m-2 pb-2 border-b-2">ToDo-List</h1>
+                            <h1 className="text-5xl m-2 pb-2 border-b-2">Communiti</h1>
                             <div className="space-y-4 text-xl m-4">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Communiti is an application that connects individuals in their community with volunteering opportunities. Users can simply sign up for an account, post their help requests, or help others with other easy to use platform. This was built with two other classmates as part of a projects course.
                                 </p>
-                                <p className="text-sm">
-                                    *This project is hosted on Heroku. Please give it a few seconds to load! 
-                                </p>
-
                                 <div className="space-y-2">
-                                    <a className="flex w-full justify-start text-blue-600" href="https://tudu-list.herokuapp.com/">
-                                        <p>View Site</p>
-                                        <FaArrowRight className="mt-1 ml-2" />
+                                    <a className="flex w-full justify-start text-blue-600" href="https://communiti-4ea70.web.app/">
+                                        <div className='flex items-center'>
+                                            <p>View Site</p>
+                                            <FaArrowRight className="mt-1 ml-2" />
+                                        </div>
                                     </a>
 
-                                    <a className="flex w-full justify-start text-blue-600" href="https://github.com/echen12/ToDo-List">
-                                        <p>View Code</p>
-                                        <FaArrowRight className="mt-1 ml-2" />
+                                    <a className="flex w-full justify-start text-blue-600" href="https://github.com/Nandddy/1800_BBYTeam03#general-info">
+                                        <div className='flex items-center'>
+                                            <p>View Code</p>
+                                            <FaArrowRight className="mt-1 ml-2" />
+                                        </div>
                                     </a>
                                 </div>
 
@@ -76,16 +72,12 @@ const FleetCare = () => {
                                 <div className="space-y-2">
                                     <h1 className="text-4xl">Highlights</h1>
                                     <ul className="md:text-2xl">
-                                        <li>- MERN Stack</li>
+                                        <li>- Html, Css, Js</li>
+                                        <li>- Bootstrap</li>
+                                        <li>- Mapbox</li>
+                                        <li>- Google Firebase</li>
                                     </ul>
                                 </div>
-                            </div>
-
-
-                            <div className="flex justify-evenly pb-2">
-                                <FaReact className="text-5xl" />
-                                <FaNode className="text-5xl" />
-                                <DiMongodb className="text-5xl" />
                             </div>
 
                         </div>
@@ -93,7 +85,7 @@ const FleetCare = () => {
                     </div>
 
                     <div className="h-0 md:h-auto flex flex-col mt-4">
-                        <Image src={todo} className="invisible md:visible" alt="project thumbnail" />
+                        <Image src={communiti} className="invisible md:visible" alt="project thumbnail" />
                     </div>
                 </div>
 
