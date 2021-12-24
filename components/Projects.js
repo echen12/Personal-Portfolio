@@ -1,8 +1,8 @@
-import { FaReact, FaNode } from 'react-icons/fa'
+import { FaReact, FaNode, FaHtml5, FaCss3 } from 'react-icons/fa'
 import { DiMongodb } from "react-icons/di";
 import Link from 'next/link';
 import fleetcare from '../public/projects/fleetcare-thumbnail.png';
-import todo from '../public/projects/todo-list-screenshot.png';
+import communiti from '../public/projects/communiti-front.PNG';
 import Image from 'next/dist/client/image';
 
 
@@ -20,14 +20,14 @@ const Projects = () => {
                             <a>
                                 <div className="text-center">
                                     <div className="w-full">
-                                        <p className="text-2xl font-bold">2020</p>
+                                        <p className="text-2xl font-bold">2021</p>
                                         <h1 className="text-white text-5xl font-semibold">FleetCare</h1>
                                         <div className="flex justify-center">
                                             <p className="text-black text-2xl font-semibold mt-6 sm:w-3/4">A full stack vehicle maintenance application</p>
                                         </div>
                                         <div className="flex justify-center m-2 ">
                                             <div className="w-1/2 border-2 border-black rounded-lg">
-                                                View Code
+                                                Check it out!
                                             </div>
                                         </div>
                                         <div className="flex justify-center space-x-4 mb-4">
@@ -47,35 +47,34 @@ const Projects = () => {
                     </div>
 
                     <div className="flex bg-palette-purple rounded-lg m-4 shadow-2xl">
-                        <Link href="/projects/todo-list">
+                        <Link href="/projects/communiti">
                             <a>
                                 <div className="text-center">
                                     <div className="w-full">
-                                        <p className="text-2xl font-bold">2020</p>
-                                        <h1 className="text-white text-5xl font-semibold">ToDo-List</h1>
+                                        <p className="text-2xl font-bold">2021</p>
+                                        <h1 className="text-white text-5xl font-semibold">Communiti</h1>
                                         <div className="flex justify-center">
-                                            <p className="text-black text-2xl font-semibold mt-6 sm:w-3/4">A simple full stack to-do list</p>
+                                            <p className="text-black text-2xl font-semibold mt-6 sm:w-3/4">The better way to find volunteering opportunities.</p>
                                         </div>
                                         <div className="flex justify-center m-2 ">
                                             <div className="w-1/2 border-2 border-black rounded-lg">
-                                                View Code
+                                                Check it out!
                                             </div>
                                         </div>
                                         <div className="flex justify-center space-x-4 mb-4">
-                                            <FaReact className="text-5xl" />
-                                            <FaNode className="text-5xl" />
-                                            <DiMongodb className="text-5xl" />
                                         </div>
                                     </div>
                                     <div className="h-auto m-2">
                                         <div className="h-0 invisible sm:visible sm:h-auto">
-                                            <Image src={todo} alt="project-thumbnail" />
+                                            <Image src={communiti} alt="project-thumbnail" />
                                         </div>
                                     </div>
                                 </div>
                             </a>
                         </Link>
                     </div>
+
+
 
                 </div>
             </div>

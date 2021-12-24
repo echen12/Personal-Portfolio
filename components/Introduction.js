@@ -14,7 +14,7 @@ const Introduction = () => {
                                 </div>
                             </div>
 
-                            <button className="sm:m-0 border-black border-2 border-red-500 text-2xl font-semibold rounded-lg p-2 hover:bg-red-500 hover:border-white hover:text-white">View My Resume
+                            <button className="sm:m-0 border-black border-2 border-red-500 text-2xl font-semibold rounded-lg p-2 hover:bg-red-500 hover:border-white hover:text-white"><a href="https://drive.google.com/file/d/1l6RFnJswtHu2Gwbtg7rPIxK6PqcpxiMB/view?usp=sharing">View my resume</a>
                             </button>
 
                         </div>

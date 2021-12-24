@@ -12,8 +12,6 @@ const NavBar = () => {
             <nav className="flex">
                 <div className="invisible flex flex-col md:visible md:flex-row md:space-x-6 md:m-auto md:mr-10">
                     <a className="hover:text-red-500" href="#projects">Projects</a>
-                    <a className="hover:text-red-500" href="#experience">Experience</a>
-                    <a className="hover:text-red-500" href="#blog">Blog</a>
                 </div>
                 <div className="flex m-auto space-x-4 mr-2 md:mr-6">
 
