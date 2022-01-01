@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../../public/logo/EC.png'
-import dashboard from '../../public/projects/home-page.PNG'
+import dashboard from '../../public/projects/dryvetrack-home.PNG'
 import { FaLinkedin, FaGithub, FaArrowRight, FaReact, FaNode } from 'react-icons/fa'
 import { DiMongodb } from "react-icons/di";
 import Footer from '../../components/Footer'
@@ -43,10 +43,14 @@ const FleetCare = () => {
                     <div className="lg:flex lg:justify-evenly border-b-2 m-2">
 
                         <div className="m-2 lg:w-7/12">
-                            <h1 className="text-5xl m-2 pb-2 border-b-2">VehicleTrack</h1>
+                            <h1 className="text-5xl m-2 pb-2 border-b-2">DryveTrack</h1>
                             <div className="space-y-4 text-xl m-4">
                                 <p>
-                                    VehicleTrack is the easiest way to track the maintenance of your vehicle. This application tracks vehicles, mileage, warranty information and oil life to maintain vehicular upkeep.
+                                    DryveTrack is the easiest way to track the maintenance of your vehicle. This application tracks vehicles, mileage, warranty information and oil life to maintain vehicular upkeep.
+                                </p>
+
+                                <p>
+                                    This application was built with React and has user authentication with JWT and Bcrypt.js. Restful API commands are used for user authentication and database calls.
                                 </p>
 
                                 <p className="text-sm">
@@ -54,12 +58,12 @@ const FleetCare = () => {
                                 </p>
 
                                 <div className="space-y-2">
-                                    <a className="flex w-full justify-start text-blue-600" href="https://fleetcare.herokuapp.com/">
+                                    <a className="flex w-full justify-start text-blue-600" href="https://dryvetrack.herokuapp.com/#">
                                         <p>View Site</p>
                                         <FaArrowRight className="mt-1 ml-2" />
                                     </a>
 
-                                    <a className="flex w-full justify-start text-blue-600" href="https://github.com/echen12/FleetCare">
+                                    <a className="flex w-full justify-start text-blue-600" href="https://github.com/echen12/dryvetrack-back">
                                         <p>View Code</p>
                                         <FaArrowRight className="mt-1 ml-2" />
                                     </a>
@@ -77,6 +81,7 @@ const FleetCare = () => {
                                         <li>- NHTSA Vehicle API</li>
                                         <li>- MERN Stack</li>
                                         <li>- Styled Components</li>
+                                        <li>- User Authentication</li>
                                     </ul>
                                 </div>
                             </div>

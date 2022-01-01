@@ -45,7 +45,10 @@ const FleetCare = () => {
                             <h1 className="text-5xl m-2 pb-2 border-b-2">Communiti</h1>
                             <div className="space-y-4 text-xl m-4">
                                 <p>
-                                    Communiti is an application that connects individuals in their community with volunteering opportunities. Users can simply sign up for an account, post their help requests, or help others with other easy to use platform. This was built with two other classmates as part of a projects course.
+                                    Communiti is an application that connects individuals in their community with volunteering opportunities. Users can simply sign up for an account, post their help requests, or help others with other easy to use platform. 
+                                </p>
+                                <p>
+                                    This application was built with Google Firebase services for user authentication and data persistance. Mapbox is used to track the location of volunteering requests.
                                 </p>
                                 <div className="space-y-2">
                                     <a className="flex w-full justify-start text-blue-600" href="https://communiti-4ea70.web.app/">
@@ -72,7 +75,6 @@ const FleetCare = () => {
                                 <div className="space-y-2">
                                     <h1 className="text-4xl">Highlights</h1>
                                     <ul className="md:text-2xl">
-                                        <li>- Html, Css, Js</li>
                                         <li>- Bootstrap</li>
                                         <li>- Mapbox</li>
                                         <li>- Google Firebase</li>
