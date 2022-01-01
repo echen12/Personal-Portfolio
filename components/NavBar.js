@@ -5,9 +5,9 @@ import Image from 'next/image'
 const NavBar = () => {
     return (
         <header className="flex justify-between h-auto w-full mt-4">
-            <div className="m-2">
-                <Image src={logo} width={127} height={80} alt="portfolio-logo" />
-            </div>
+            <a className="m-2">
+                <Image src={logo} width={127} height={80} alt="portfolio-logo" className='cursor-pointer' />
+            </a>
 
             <nav className="flex">
                 <div className="invisible flex flex-col md:visible md:flex-row md:space-x-6 md:m-auto md:mr-10">

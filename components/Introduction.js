@@ -23,12 +23,13 @@ const Introduction = () => {
 
                             <div className="space-y-4 m-2 border-2 rounded-lg sm:border-0 p-2">
                                 <p>
-                                    I&apos;m a 1st year computer science student and I have a passion in developing modern web applications. I have an unending curiosity for learning how technology works, specifically programming.
+                                    I&apos;m in my 1st year studying Computer Systems Technology at BCIT. 
                                 </p>
 
                                 <p>
-                                    I specialize in JavaScript, React, and Node.js, but I&apos;m almost always learning new web technologies so I can see my ideas and my programming come to life!
+                                    For as long as I can remember, I've always loved to build things. From model cars to popsicle bridges and now applications, I find it so satisfying to see the final results of indivdidual components that work together to produce an entire application. To know that you could build something that might positively impact many people is an incredibly empowering feeling. Coding is an outlet for me to tinker with new things, express my creativity, learn new technologies and <i>just have fun</i>.
                                 </p>
+
                             </div>
 
                         </div>

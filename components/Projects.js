@@ -1,7 +1,7 @@
 import { FaReact, FaNode, FaHtml5, FaCss3 } from 'react-icons/fa'
 import { DiMongodb } from "react-icons/di";
 import Link from 'next/link';
-import fleetcare from '../public/projects/fleetcare-thumbnail.png';
+import dryvetrack from '../public/projects/dryvetrack-front.PNG';
 import communiti from '../public/projects/communiti-front.PNG';
 import Image from 'next/dist/client/image';
 
@@ -21,7 +21,7 @@ const Projects = () => {
                                 <div className="text-center">
                                     <div className="w-full">
                                         <p className="text-2xl font-bold">2021</p>
-                                        <h1 className="text-white text-5xl font-semibold">FleetCare</h1>
+                                        <h1 className="text-white text-5xl font-semibold">DryveTrack</h1>
                                         <div className="flex justify-center">
                                             <p className="text-black text-2xl font-semibold mt-6 sm:w-3/4">A full stack vehicle maintenance application</p>
                                         </div>
@@ -38,7 +38,7 @@ const Projects = () => {
                                     </div>
                                     <div className="h-auto m-2">
                                         <div className="h-0 invisible sm:visible sm:h-auto">
-                                            <Image src={fleetcare} alt="project-thumbnail" />
+                                            <Image src={dryvetrack} alt="project-thumbnail" />
                                         </div>
                                     </div>
                                 </div>
