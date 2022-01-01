@@ -5,6 +5,11 @@ import Experience from "../components/Experience";
 import Blog from "../components/Blog";
 import Footer from "../components/Footer";
 
+
+const test = {
+  name: "Edmond"
+}
+
 const Home = () => {
   return (
     <div>
