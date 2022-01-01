@@ -27,7 +27,7 @@ const Introduction = () => {
                                 </p>
 
                                 <p>
-                                    For as long as I can remember, I've always loved to build things. From model cars to popsicle bridges and now applications, I find it so satisfying to see the final results of indivdidual components that work together to produce an entire application. To know that you could build something that might positively impact many people is an incredibly empowering feeling. Coding is an outlet for me to tinker with new things, express my creativity, learn new technologies and <i>just have fun</i>.
+                                    For as long as I can remember, I&apos;ve always loved to build things. From model cars to popsicle bridges and now applications, I find it so satisfying to see the final results of indivdidual components that work together to produce an entire application. To know that you could build something that might positively impact many people is an incredibly empowering feeling. Coding is an outlet for me to tinker with new things, express my creativity, learn new technologies and <i>just have fun</i>.
                                 </p>
 
                             </div>
